@@ -20,30 +20,12 @@
 }
 
 @end
-@implementation HeroDetailBraumQModel
 
+@implementation HeroDetailBraumModel
++ (NSDictionary *)replacedKeyFromPropertyName{
+    return @{@"ID": @"id", @"desc": @"description"};
+}
 @end
-
-
-@implementation HeroDetailBraumRModel
-
-@end
-
-
-@implementation HeroDetailBraumWModel
-
-@end
-
-
-@implementation HeroDetailBraumBModel
-
-@end
-
-
-@implementation HeroDetailBraumEModel
-
-@end
-
 
 @implementation HeroDetailLikeModel
 
